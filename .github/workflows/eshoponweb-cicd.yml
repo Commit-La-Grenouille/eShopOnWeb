@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-RGS
-  LOCATION: eastus
+  LOCATION: westeurope # technically the lab RG defaults to: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 163666c5-4301-46a0-8cf0-631ad760ca4d 
   WEBAPP-NAME: eshoponweb-webapp-RGS
